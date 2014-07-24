@@ -25,7 +25,7 @@ datasetFile <- "UCI HAR Dataset.zip"
 datasetDir <-  "UCI HAR Dataset"
 
 ### Check for zipped dataset file: if it doesn't exist then download it
-if (!file.exists(datasetFile)) {
+if (!file.exists(datasetFile) && !file.exists(datasetDir)) {
     download.file(fileUrl, destfile=datasetFile, method="curl")
 } else {
     print("File already exists, skipping download")
