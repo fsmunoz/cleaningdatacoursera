@@ -73,41 +73,41 @@ walkingdownstairs
 walkingupstairs
 ```
 #### tbodyacc-mean-x (num)
-Body Accelaration (X axis) mean (time domain).
+Body Acceleration (X axis) mean (time domain).
 #### tbodyacc-mean-y (num)
-Body Accelaration (Y axis) mean (time domain).
+Body Acceleration (Y axis) mean (time domain).
 #### tbodyacc-mean-z (num)
-Body Accelaration (Z axis) mean (time domain).
+Body Acceleration (Z axis) mean (time domain).
 #### tbodyacc-std-x (num)
-Body Accelaration (X axis) Standard Deviation (time domain).
+Body Acceleration (X axis) Standard Deviation (time domain).
 #### tbodyacc-std-y (num)
-Body Accelaration (Y axis) Standard Deviation (time domain).
+Body Acceleration (Y axis) Standard Deviation (time domain).
 #### tbodyacc-std-z (num)
-Body Accelaration (Z axis) Standard Deviation (time domain).
+Body Acceleration (Z axis) Standard Deviation (time domain).
 #### tgravityacc-mean-x (num)
-Gravity Accelaration (X axis) mean (time domain).
+Gravity Acceleration (X axis) mean (time domain).
 #### tgravityacc-mean-y (num)
-Gravity Accelaration (Y axis) mean (time domain).
+Gravity Acceleration (Y axis) mean (time domain).
 #### tgravityacc-mean-z (num)
-Gravity Accelaration (Z axis) mean (time domain).
+Gravity Acceleration (Z axis) mean (time domain).
 #### tgravityacc-std-x (num)
-Gravity Accelaration (X axis) Standard Deviation (time domain).
+Gravity Acceleration (X axis) Standard Deviation (time domain).
 #### tgravityacc-std-y (num)
-Gravity Accelaration (Y axis) Standard Deviation (time domain).
+Gravity Acceleration (Y axis) Standard Deviation (time domain).
 #### tgravityacc-std-z (num)
-Gravity Accelaration (Z axis) Standard Deviation (time domain).
+Gravity Acceleration (Z axis) Standard Deviation (time domain).
 #### tbodyaccjerk-mean-x (num)
-Body Accelaration Jerk (X axis) mean (time domain).
+Body Acceleration Jerk (X axis) mean (time domain).
 #### tbodyaccjerk-mean-y (num)
-Body Accelaration Jerk (Y axis) mean (time domain).
+Body Acceleration Jerk (Y axis) mean (time domain).
 #### tbodyaccjerk-mean-z (num)
-Body Accelaration Jerk (Z axis) mean (time domain).
+Body Acceleration Jerk (Z axis) mean (time domain).
 #### tbodyaccjerk-std-x (num)
-Body Accelaration Jerk (X axis) Standard Deviation (time domain).
+Body Acceleration Jerk (X axis) Standard Deviation (time domain).
 #### tbodyaccjerk-std-y (num)
-Body Accelaration Jerk (X axis) Standard Deviation (time domain).
+Body Acceleration Jerk (X axis) Standard Deviation (time domain).
 #### tbodyaccjerk-std-z (num)
-Body Accelaration Jerk (X axis) Standard Deviation (time domain).
+Body Acceleration Jerk (X axis) Standard Deviation (time domain).
 #### tbodygyro-mean-x (num)
 Body Gyroscope (X axis) mean (time domain).
 #### tbodygyro-mean-y (num)
