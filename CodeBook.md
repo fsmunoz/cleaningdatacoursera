@@ -11,15 +11,18 @@ Notes:
 - Each feature vector is a row on the text file.
 
 
-#### subject (int): identifies the subject that performed the activity, within the range 1-30.
-#### activity (chr): a string describing the activity, one of
->laying
->sitting
->standing
->walking
->walkingdownstairs
->walkingupstairs
-
+#### subject (int)
+Identifies the subject that performed the activity, within the range 1-30.
+#### activity (chr)
+A string describing the activity, one of
+```
+laying
+sitting
+standing
+walking
+walkingdownstairs
+walkingupstairs
+```
 #### tbodyacc-mean-x
 #### tbodyacc-mean-y
 #### tbodyacc-mean-z
