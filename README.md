@@ -25,3 +25,10 @@ files:
 
 * `temp_data.csv`: a CSV file wich contains the merging of test and train data, with factors explicitly labelled and columns explicitly named
 * `final_data.csv`: a CVS file which is the tidy dataset that includes the average of all values according to subject and activity (the "independent dataset" asked for in the assignment
+
+Both files can be read using `read.csv`.  Both files contain tidy datasets (in "wide" format) that adhere to the following rules (cf. 
+"Tidy Data", Hadley Wickham, http://vita.had.co.nz/papers/tidy-data.pdf)
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
