@@ -1,15 +1,24 @@
 cleaningdatacoursera
 ====================
 
-Coursera Getting and Cleaning Data
+# Coursera Getting and Cleaning Data
 
 This is the code for the Peer Assessed project.
 
 Intructions:
 
-* Download the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-* Extract it 
-* Clone run_analysis.R to the same level as the extracter directory (i.e. it should be alongside the "UCI HAR Dataset" directory, not within it)
-* Using the shell launch R and use the command source("run_analysis.R")
+* Clone this repo to your disk
+* cd into the "cleaningdatacoursera" directory
+* Run the script (using e.g. "$ R -f runAnalysis.R" in Unix systems, or using "source("runAnalysis.R")" from within an R shell opened in the directory)
 
-The final dataset is in the final_data.txt file, which contains a second, independent tidy data set with the average of each variable for each activity and each subject. 
+The script will download and unzip the dataset (while checking for
+alreasy existing files and directories), perform all the necessary
+operations and output two files:
+
+* temp_data.csv: a CSV file wich contains the merging of test and train data, with factors explicitly labelled and columns explicitly named
+* final_data.csv: a CVS file which is the tidy dataset that includes the average of all values according to subject and activity (the "independent dataset" asked for in the assignment
+
+The code is contained in a single source file which is extensively
+commented; additional information related to the variables and
+transformations is described in CodeBook.md.
+
