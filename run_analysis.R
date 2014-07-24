@@ -118,7 +118,7 @@ names(X.data.meanSD)<-tolower(gsub("\\(|\\)", "", features[meanSD.features, 2]))
 
 names(sub.data) <- "subject"  # label the column
 tmp.dataset <- cbind(sub.data, Y.data, X.data.meanSD) # bind all the columns
-write.csv(tmp.dataset, "temp_data.csv") # write it to disk, as CSV file.
+write.csv(tmp.dataset, "temp_data.csv", row.names = FALSE) # write it to disk, as CSV file.
 
 ### Creates a second, independent tidy data set with the average of
 ### each variable for each activity and each subject.
@@ -157,7 +157,7 @@ final.data <- dcast(melted.data, formula = subject + activity ~ variable, mean)
 ## long-format data, and castthe opposite (dcast is for data frames)
 melted.data <- melt(tmp.dataset, id=c("subject","activity"))
 final.data <- dcast(melted.data, formula = subject + activity ~ variable, mean)
-write.csv(final.data, "final_data.csv") # this is the final output, as a CSV file
+write.csv(final.data, "final_data.csv", row.names = FALSE) # this is the final output, as a CSV file
 
 ## The final, tidy dataset has 180 observations and 68 variables; the
 ## numering variables are now the mean value for each one of them for
